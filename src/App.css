@@ -15,7 +15,7 @@ body {
 .light {
 	--clr-bg: #fcfcfc;
 	--clr-bg-alt: #ffffff;
-	--clr-font: #555;
+	--clr-font: #555555;
 	--clr-font-alt: #444444;
 	--clr-primary: #2978b5;
 }
@@ -23,9 +23,9 @@ body {
 .dark {
 	--clr-bg: #2b304b;
 	--clr-bg-alt: #2a2f4c;
-	--clr-font: #c1c1dc;
+	--clr-font: #dbdbee;
 	--clr-font-alt: #d7d7f7;
-	--clr-primary: #9aa7d7;
+	--clr-primary: #8686b8;
 }
 
 main {
