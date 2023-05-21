@@ -1,25 +1,48 @@
 import { useContext, useState } from 'react';
 import { ThemeContext } from '../../context/Theme';
-import { Brightness3, WbSunnyRounded } from '@mui/icons-material';
+import CloseIcon from '@mui/icons-material/Close';
+import MenuIcon from '@mui/icons-material/Menu';
+import { WbSunnyRounded, Brightness3 } from '@mui/icons-material';
 import './Navbar.css';
+import '../../App.css';
 import Toggle from '../Toggle/Toggle';
 
 const Navbar = () => {
 	const [{ theme, toggleTheme }] = useContext(ThemeContext);
+	const [showNav, setShowNav] = useState(false);
+
+	const closeNav = () => {
+		setShowNav(false);
+	};
+
+	const toggleNav = () => {
+		setShowNav(!showNav);
+	};
 	return (
-		<nav className="navbar">
-			<h1>LOGO</h1>
-			<ul className="nav-links">
-				<li>Home</li>
-				<li>About</li>
-				<li>Projects</li>
-				<li>Contact</li>
-				{/* <button onClick={toggleTheme}>
-					{theme === 'dark' ? <WbSunnyRounded /> : <Brightness3 />}
-				</button> */}
-				<Toggle />
-			</ul>
-		</nav>
+		<header className="header">
+			<nav className={`navbar ${theme}`}>
+				<h1 className="logo">LOGO</h1>
+				<ul
+					className={showNav ? 'nav-links active' : 'nav-links'}
+					style={{ backgroundColor: 'var(--clr-bg)' }}
+				>
+					<li className="nav-link">Home</li>
+					<li className="nav-link">About</li>
+					<li className="nav-link">Projects</li>
+					<li className="nav-link">Contact</li>
+					<Toggle />
+				</ul>
+
+				<div className="mobile-nav">
+					<div onClick={toggleTheme}>
+						{theme === 'dark' ? <WbSunnyRounded /> : <Brightness3 />}
+					</div>
+					<div className={`nav-hamburger`} onClick={toggleNav}>
+						{showNav ? <CloseIcon /> : <MenuIcon />}
+					</div>
+				</div>
+			</nav>
+		</header>
 	);
 };
 

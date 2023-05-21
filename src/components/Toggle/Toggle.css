@@ -63,3 +63,9 @@ input:checked + .slider {
 
 	--clr-slider-before: #838383;
 }
+
+@media (max-width: 800px) {
+	.toggle-container {
+		display: none;
+	}
+}
