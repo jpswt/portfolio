@@ -19,8 +19,11 @@ const Navbar = () => {
 		setShowNav(!showNav);
 	};
 	return (
-		<header className="header">
-			<nav className={`navbar ${theme}`}>
+		<header
+			className={`header ${theme}`}
+			style={{ backgroundColor: 'var(--clr-bg)' }}
+		>
+			<nav className={`navbar`}>
 				<h1 className="logo">LOGO</h1>
 				<ul
 					className={showNav ? 'nav-links active' : 'nav-links'}

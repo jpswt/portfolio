@@ -1,0 +1,32 @@
+.profile-container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.profile-container .profile-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 100%;
+	padding: 0 1.2rem;
+	margin: 3rem 0;
+}
+
+.profile-container .profile-content .profile-title {
+	font-size: 4.2rem;
+	font-weight: 900;
+	margin-bottom: 0;
+	letter-spacing: 1px;
+}
+
+.profile-container .profile-content .profile-description {
+	font-size: 2rem;
+	margin-top: 1rem;
+}
+
+.profile-container .profile-content .profile-info {
+	max-width: 48%;
+	font-size: 1.2rem;
+	margin-top: 0;
+}

@@ -4,7 +4,7 @@ body {
 }
 
 .app {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 1.5;
 	color: var(--clr-font);
 	background-color: var(--clr-bg);

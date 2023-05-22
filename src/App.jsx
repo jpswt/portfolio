@@ -6,6 +6,7 @@ import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from './components/Navbar/Navbar';
+import Profile from './components/Profile/Profile';
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -22,6 +23,7 @@ function App() {
 	return (
 		<div className={`${theme} app`}>
 			<Navbar />
+			<Profile />
 			<main>
 				<div>
 					<a href="https://vitejs.dev" target="_blank">

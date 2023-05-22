@@ -1,7 +1,8 @@
 .header {
-	position: fixed;
+	position: sticky;
 	height: 80px;
-	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 	top: 0;
 	left: 0;
 	z-index: 1000;
@@ -12,10 +13,9 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	max-width: 1200px;
+	max-width: 100%;
 	margin: 0 auto;
 	display: flex;
-	align-items: center;
 	padding: 0 1.2rem;
 }
 
