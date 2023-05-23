@@ -1,12 +1,15 @@
-import React from 'react';
+import { useContext } from 'react';
 import './Profile.css';
+import { ThemeContext } from '../../context/Theme';
 
 const Profile = () => {
+	const [{ theme, toggleTheme }] = useContext(ThemeContext);
 	return (
 		<div className="profile-container">
 			<div className="profile-content">
 				<h1 className="profile-title">
-					Hi, I am <span>Joel</span> Perez.
+					Hi, I am{' '}
+					<span style={{ color: 'var(--clr-primary)' }}>Joel Perez.</span>
 				</h1>
 				<h2 className="profile-description">Full Stack Engineer</h2>
 				<p className="profile-info">
