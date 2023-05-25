@@ -1,0 +1,15 @@
+.project-container {
+	height: 100%;
+}
+
+.projects-container .grid-container {
+	height: 100vh;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 40%));
+	padding: 16px;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}

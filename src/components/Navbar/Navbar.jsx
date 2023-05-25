@@ -19,19 +19,20 @@ const Navbar = () => {
 		setShowNav(!showNav);
 	};
 	return (
-		<header
-			className={`header ${theme}`}
-			style={{ backgroundColor: 'var(--clr-bg)' }}
-		>
+		<header className={`header`} style={{ backgroundColor: 'var(--clr-bg)' }}>
 			<nav className={`navbar`}>
 				<h1 className="logo">LOGO</h1>
 				<ul
 					className={showNav ? 'nav-links active' : 'nav-links'}
 					style={{ backgroundColor: 'var(--clr-bg)' }}
 				>
-					<li className="nav-link">Home</li>
+					<a href="#home">
+						<li className="nav-link">Home</li>
+					</a>
 					<li className="nav-link">About</li>
-					<li className="nav-link">Projects</li>
+					<a href="#projects">
+						<li className="nav-link">Projects</li>
+					</a>
 					<li className="nav-link">Contact</li>
 					<Toggle />
 				</ul>
