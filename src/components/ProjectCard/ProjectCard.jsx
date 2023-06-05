@@ -7,9 +7,9 @@ const ProjectCard = ({ project }) => {
 				<div>
 					<img src={project.bg} alt={project.title} className="card-image" />
 				</div>
-				<h2>{project.title}</h2>
+				<h2 className="card-titles">{project.title}</h2>
 				<p>{project.description}</p>
-				<h3>Tech Stack</h3>
+				<h3 className="card-titles">Tech Stack</h3>
 				<div className="stack-container">
 					{Object.values(project.stack).map((el) => (
 						<div>{el}</div>

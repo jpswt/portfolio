@@ -3,15 +3,29 @@
 }
 
 .card-wrapper .card-container {
-	width: 100%;
+	width: 80%;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
+	background-color: var(--clr-font);
+	padding: 1.4rem 0;
+}
+
+.card-wrapper .card-container h2 {
+	font-size: 1.8rem;
+	margin-bottom: 0px;
+}
+.card-wrapper .card-container h3 {
+	font-size: 1.4rem;
+	margin-top: 0px;
 }
 
 .card-wrapper .card-container .card-image {
-	width: 350px;
-	height: 200px;
-	object-fit: contain;
+	width: 90%;
+	object-fit: cover;
+}
+.card-wrapper .card-container .card-titles {
+	color: var(--clr-card-font);
 }
 
 .card-wrapper .card-container .stack-container {

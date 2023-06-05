@@ -12,19 +12,24 @@ body {
 }
 
 .light {
-	--clr-bg: #fcfcfc;
-	--clr-bg-alt: #ffffff;
-	--clr-font: #555555;
-	--clr-font-alt: #444444;
-	--clr-primary: #2978b5;
+	--clr-bg: hsl(0, 0%, 99%);
+	--clr-bg-alt: hsl(0, 0%, 100%);
+	--clr-font: hsl(0, 0%, 33%);
+	--clr-font-alt: hsl(0, 0%, 27%);
+	--clr-primary: hsl(206, 63%, 44%);
+	--clr-card: hsl(216, 12%, 80%);
+	--clr-card2: hsl(216, 12%, 80%);
+	--clr-card-font: hsl(206, 63%, 54%);
 }
 
 .dark {
-	--clr-bg: #2b304b;
-	--clr-bg-alt: #2a2f4c;
-	--clr-font: #dbdbee;
-	--clr-font-alt: #d7d7f7;
-	--clr-primary: #8686b8;
+	--clr-bg: hsl(231, 27%, 23%);
+	--clr-bg-alt: hsl(231, 29%, 23%);
+	--clr-font: hsl(240, 36%, 90%);
+	--clr-font-alt: hsl(240, 67%, 91%);
+	--clr-primary: hsl(240, 26%, 62%);
+	--clr-card: hsl(238, 12%, 58%);
+	--clr-card-font: hsl(206, 63%, 44%);
 }
 
 main {
