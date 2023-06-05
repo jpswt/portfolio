@@ -1,8 +1,10 @@
 import { useEffect } from 'react';
+import { data } from '../../data/Data';
 import './Projects.css';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ProjectCard from '../ProjectCard/ProjectCard';
 
 const Projects = () => {
 	useEffect(() => {
@@ -16,13 +18,9 @@ const Projects = () => {
 	return (
 		<div className="projects-container" id="projects">
 			<div className="grid-container">
-				<div data-aos="zoom-in-right">
-					Card 1
-					<img src="./src/assets/react.svg" alt="" />
-				</div>
-				<div data-aos="zoom-in-left">Card 2</div>
-				<div data-aos="zoom-in-right">Card 3</div>
-				<div data-aos="zoom-in-left">Card 4</div>
+				{data.map((project) => (
+					<ProjectCard project={project} key={project.id} />
+				))}
 			</div>
 		</div>
 	);

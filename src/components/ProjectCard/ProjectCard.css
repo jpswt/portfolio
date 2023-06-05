@@ -1,0 +1,22 @@
+.card-wrapper {
+	width: 100%;
+}
+
+.card-wrapper .card-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.card-wrapper .card-container .card-image {
+	width: 350px;
+	height: 200px;
+	object-fit: contain;
+}
+
+.card-wrapper .card-container .stack-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
