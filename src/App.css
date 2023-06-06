@@ -16,10 +16,10 @@ body {
 	--clr-bg-alt: hsl(0, 0%, 100%);
 	--clr-font: hsl(0, 0%, 33%);
 	--clr-font-alt: hsl(0, 0%, 27%);
-	--clr-primary: hsl(206, 63%, 44%);
-	--clr-card: hsl(216, 12%, 80%);
-	--clr-card2: hsl(216, 12%, 80%);
-	--clr-card-font: hsl(206, 63%, 54%);
+	--clr-primary: #005b96;
+	--clr-card: #e5f1f8;
+	--clr-card2: #b3cde0;
+	--clr-card-font: #005b96;
 }
 
 .dark {

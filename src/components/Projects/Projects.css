@@ -3,11 +3,12 @@
 }
 
 .projects-container .grid-container {
-	height: 100vh;
+	/* height: 100%; */
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	gap: 10px;
+	row-gap: 4rem;
 	align-items: center;
 	justify-content: center;
 	text-align: center;

@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 import Navbar from './components/Navbar/Navbar';
 import Profile from './components/Profile/Profile';
 import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -27,6 +28,7 @@ function App() {
 				<Navbar />
 				<Profile />
 				<Projects />
+				<Contact />
 				{/* <h1 data-aos="fade-up">Vite + React</h1> */}
 			</main>
 		</div>

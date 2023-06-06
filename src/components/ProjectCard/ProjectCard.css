@@ -7,8 +7,15 @@
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	background-color: var(--clr-font);
-	padding: 1.4rem 0;
+	background-color: var(--clr-card2);
+	padding: 0 0 1.4rem 0;
+}
+
+.card-wrapper .card-container .image-container {
+	width: 100%;
+	background-color: var(--clr-card2);
+	padding: 0;
+	padding: 1.4rem 0 1.2rem;
 }
 
 .card-wrapper .card-container h2 {
