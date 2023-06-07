@@ -2,6 +2,8 @@
 	max-width: 1200px;
 	margin: 0 auto;
 	min-height: calc(100vh - 80px);
+	display: flex;
+	align-items: center;
 }
 
 .profile-container .profile-content {
@@ -20,6 +22,9 @@
 	margin-bottom: 0;
 	letter-spacing: 1px;
 }
+.profile-container .profile-content .profile-title .name {
+	color: var(--clr-primary);
+}
 
 .profile-container .profile-content .profile-description {
 	font-size: 2rem;
@@ -27,7 +32,7 @@
 }
 
 .profile-container .profile-content .profile-info {
-	max-width: 48%;
+	max-width: 80%;
 	font-size: 1.2rem;
 	margin-top: 0;
 }

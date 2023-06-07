@@ -17,8 +17,8 @@ body {
 	--clr-font: hsl(0, 0%, 33%);
 	--clr-font-alt: hsl(0, 0%, 27%);
 	--clr-primary: #005b96;
-	--clr-card: #e5f1f8;
-	--clr-card2: #b3cde0;
+	--clr-card: hsl(202, 58%, 94%);
+	--clr-card2: #597d97;
 	--clr-card-font: #005b96;
 }
 
@@ -27,8 +27,9 @@ body {
 	--clr-bg-alt: hsl(231, 29%, 23%);
 	--clr-font: hsl(240, 36%, 90%);
 	--clr-font-alt: hsl(240, 67%, 91%);
-	--clr-primary: hsl(240, 26%, 62%);
+	--clr-primary: #8585b7;
 	--clr-card: hsl(238, 12%, 58%);
+	--clr-card2: hsl(238, 12%, 58%);
 	--clr-card-font: hsl(206, 63%, 44%);
 }
 
