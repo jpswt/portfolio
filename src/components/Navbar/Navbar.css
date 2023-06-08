@@ -33,6 +33,37 @@
 	list-style-type: none;
 }
 
+.header .navbar .nav-links .nav-link a {
+	font-size: 18px;
+	color: var(--clr-font);
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.header .navbar .nav-links .nav-link::after {
+	content: '';
+	width: 0%;
+	height: 3px;
+	background: var(--clr-primary);
+	display: block;
+	/* margin: auto; */
+	transition: 0.3s;
+}
+
+.header .navbar .nav-links .nav-link:hover::after {
+	width: 100%;
+}
+
+/* .header .navbar .nav-links::after {
+	content: '';
+	width: 0%;
+	height: 3px;
+	background: var(--clr-primary);
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+} */
+
 .header .navbar .mobile-nav {
 	display: none;
 }

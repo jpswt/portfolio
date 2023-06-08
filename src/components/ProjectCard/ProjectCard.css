@@ -3,41 +3,111 @@
 }
 
 .card-wrapper .card-container {
-	width: 80%;
-	margin: 0 auto;
+	/* margin: 0 auto; */
+	flex: 2;
 	display: flex;
-	flex-direction: column;
-	background-color: var(--clr-card);
-	padding: 0 0 1.4rem 0;
+	flex-direction: row;
+	gap: 2rem;
+	position: relative;
+	z-index: 0;
 }
 
 .card-wrapper .card-container .image-container {
-	width: 100%;
-	background-color: var(--clr-card2);
-	padding: 0;
-	padding: 1.4rem 0 1.2rem;
+	flex: 1;
 }
 
-.card-wrapper .card-container h2 {
+.card-wrapper .card-container .odd::after {
+	content: '';
+	position: absolute;
+	width: 500px;
+	height: 100%;
+	background: var(--clr-card2);
+	left: 0px;
+	top: -30px;
+	z-index: -1;
+}
+
+.card-wrapper .card-container .even::after {
+	content: '';
+	position: absolute;
+	width: 500px;
+	height: 100%;
+	background: var(--clr-c);
+	left: 0;
+	top: -30px;
+	z-index: -1;
+}
+
+.card-wrapper .card-container .image-container .card-image {
+	width: 500px;
+	object-fit: cover;
+}
+
+.card-wrapper .card-container .details-container {
+	flex: 1;
+	text-align: left;
+}
+
+.card-wrapper .card-container .details-container h2 {
 	font-size: 1.8rem;
 	margin-bottom: 0px;
 }
-.card-wrapper .card-container h3 {
+.card-wrapper .card-container .details-container h3 {
 	font-size: 1.4rem;
 	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
-.card-wrapper .card-container .card-image {
-	width: 90%;
-	object-fit: cover;
+/* 
+
+
+
+
+.card-wrapper .card-container .details-container {
+	min-height: 100%;
+	border-top: 6px var(--clr-card-bdr) solid;
 }
-.card-wrapper .card-container .card-titles {
+
+.card-wrapper .card-container .details-container .card-titles {
 	color: var(--clr-card-font);
 }
+.card-wrapper .card-container .details-container .card-text {
+	max-width: 100%;
+	color: var(--clr-bg);
+	margin-top: 0px;
+	font-size: 18px;
+}
 
-.card-wrapper .card-container .stack-container {
+.card-wrapper .card-container .details-container .stack-container {
+	max-width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 0.5rem;
 }
+.card-wrapper .card-container .details-container .stack-container span {
+	font-size: 16px;
+	position: relative;
+	padding: 0 0.25rem;
+} */
+
+/* .card-wrapper .card-container .details-container .stack-container span::after {
+	content: '';
+	background-color: white;
+	position: absolute;
+	width: 2px;
+	height: 16px;
+	top: 4px;
+	left: 106%;
+	display: block;
+}
+.card-wrapper .card-container .details-container .stack-container span::after {
+	content: '';
+	background-color: white;
+	position: absolute;
+	width: 2px;
+	height: 16px;
+	top: 4px;
+	left: 106%;
+	display: block;
+} */

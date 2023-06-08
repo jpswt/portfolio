@@ -17,9 +17,9 @@ body {
 	--clr-font: hsl(0, 0%, 33%);
 	--clr-font-alt: hsl(0, 0%, 27%);
 	--clr-primary: #005b96;
-	--clr-card: hsl(202, 58%, 94%);
-	--clr-card2: #597d97;
-	--clr-card-font: #005b96;
+	--clr-card: hsla(203, 77%, 80%, 0.8);
+	--clr-card2: hsla(205, 26%, 47%, 0.8);
+	--clr-c: hsla(180, 50%, 40%, 0.8);
 }
 
 .dark {
@@ -28,9 +28,9 @@ body {
 	--clr-font: hsl(240, 36%, 90%);
 	--clr-font-alt: hsl(240, 67%, 91%);
 	--clr-primary: #8585b7;
-	--clr-card: hsl(238, 12%, 58%);
-	--clr-card2: hsl(238, 12%, 58%);
-	--clr-card-font: hsl(206, 63%, 44%);
+	--clr-card: hsla(234, 76%, 80%, 0.8);
+	--clr-card2: hsla(234, 26%, 47%);
+	--clr-c: hsla(168, 26%, 54%, 0.8);
 }
 
 main {

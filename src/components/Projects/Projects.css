@@ -2,13 +2,17 @@
 	min-height: calc(100vh - 80px);
 }
 
-.projects-container .grid-container {
+.projects-container .project-container {
 	/* height: 100%; */
-	width: 100%;
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-	gap: 10px;
-	row-gap: 4rem;
+	/* width: 100%; */
+	display: flex;
+	flex-direction: column;
+
+	/* display: grid;  */
+	/* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	gap: 10px; */
+	row-gap: 10rem;
+
 	align-items: center;
 	justify-content: center;
 	text-align: center;
