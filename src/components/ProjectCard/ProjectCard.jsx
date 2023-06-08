@@ -1,5 +1,4 @@
 import './ProjectCard.css';
-import arrow from './arrow.png';
 
 const ProjectCard = ({ project }) => {
 	return (
