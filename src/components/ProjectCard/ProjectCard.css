@@ -1,25 +1,23 @@
-h2 {
-	font-size: 2.2rem;
-	margin-bottom: 0px;
-}
-
-h3 {
-	font-size: 1.4rem;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
-p {
-	margin: 0;
-	font-size: 1.2rem;
-}
-
 .card-wrapper {
 	width: 100%;
 }
 
+.card-wrapper h2 {
+	font-size: 2rem;
+	margin: 0px;
+}
+.card-wrapper h3 {
+	font-size: 1.4rem;
+	margin-top: 0.8rem;
+	margin-bottom: 0px;
+}
+.card-wrapper p {
+	margin: 0;
+	font-size: 1rem;
+	letter-spacing: 1px;
+}
+
 .card-wrapper .card-container {
-	/* margin: 0 auto; */
 	flex: 2;
 	display: flex;
 	flex-direction: row;
@@ -35,8 +33,8 @@ p {
 .card-wrapper .card-container .odd::after {
 	content: '';
 	position: absolute;
-	width: 41%;
-	height: 100%;
+	min-width: 490px;
+	height: 240px;
 	background: var(--clr-card2);
 	left: 5px;
 	top: -30px;
@@ -46,8 +44,8 @@ p {
 .card-wrapper .card-container .even::after {
 	content: '';
 	position: absolute;
-	width: 41%;
-	height: 100%;
+	min-width: 490px;
+	height: 240px;
 	background: var(--clr-c);
 	left: 700px;
 	top: -30px;
@@ -63,6 +61,38 @@ p {
 	flex: 1;
 }
 
+.card-wrapper .card-container .details-container .stack-container span {
+	letter-spacing: 1px;
+	position: relative;
+	padding: 0 0.5rem;
+}
+
+.card-wrapper .card-container .details-container .stack-container span::after {
+	content: '';
+	background-color: var(--clr-font);
+	position: absolute;
+	width: 2px;
+	height: 14px;
+	top: 4px;
+	left: 0;
+	display: block;
+}
+
+.card-wrapper
+	.card-container
+	.details-container
+	.stack-container
+	span:first-child::after {
+	height: 0px;
+}
+.arrow {
+	width: 180px;
+	color: var(--clr-c);
+	transform: scaleY(-1);
+	position: absolute;
+	top: 230px;
+	left: 50;
+}
 /* 
 
 

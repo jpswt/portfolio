@@ -1,4 +1,5 @@
 import './ProjectCard.css';
+import arrow from './arrow.png';
 
 const ProjectCard = ({ project }) => {
 	return (
@@ -18,6 +19,7 @@ const ProjectCard = ({ project }) => {
 								alt={project.title}
 								className="card-image"
 							/>
+							{/* <img className="arrow" src={arrow} alt="" /> */}
 						</div>
 						<div className="details-container">
 							<h2 className="card-titles">{project.title}</h2>
