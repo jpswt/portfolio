@@ -39,19 +39,27 @@
 	margin-top: 0;
 }
 
+.arrow-container {
+	position: absolute;
+	width: 100%;
+	display: flex;
+	top: 88%;
+	left: 18%;
+}
+
 .checkout {
 	font-family: 'Gloria Hallelujah';
 	font-size: 1.4rem;
-	position: absolute;
-	top: 540px;
-	left: 340px;
+	top: 0;
+	left: 27%;
+	/* position: absolute; */
 }
 
 .arrow {
-	width: 220px;
+	width: 15%;
 	color: var(--clr-c);
 	transform: scale(-1, -1);
-	position: absolute;
-	top: 550px;
-	left: 120px;
+	top: 0;
+	left: 18%;
+	/* position: absolute; */
 }

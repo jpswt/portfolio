@@ -9,6 +9,7 @@ export const data = [
 			'A user friendly e-commerce site with for all of your skateboarding needs. Detailed product descriptions and high-res photos, allow you to make informed decisions about each product. A personal project designed to learn Redux Toolkit and Stripe API integration.',
 		stack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Sass'],
 		site: 'https://lostskateshop.onrender.com/',
+		gh: 'https://github.com/jpswt/LostSkateShop',
 	},
 	{
 		id: 2,
@@ -16,7 +17,7 @@ export const data = [
 		color: 'blue',
 		title: 'Note For Note',
 		description:
-			'An e-commerce site for all of your skateboarding needs. With easy navigation, product details and high-res photos, we allow you to make informed decisions about each product. It also offers secure payment and hassle-free checkout process.This was a personal project to work with Redux Toolkit and the Stripe API.',
+			'Showcase your musical journey, share your insights, connect and collaborate with fellow artists in a vibrant and engaging platform designed exclusively for the guitarist community. It is a Medium.com theme inspired application built to learn MongoDB integrate Multer/Firebase Storage.',
 		stack: [
 			'MongoDB',
 			'Express.js',
@@ -26,6 +27,7 @@ export const data = [
 			'TailwindCSS',
 		],
 		site: 'https://notefornote.onrender.com/',
+		gh: 'https://github.com/jpswt/NoteForNote',
 	},
 	{
 		id: 3,
@@ -41,7 +43,8 @@ export const data = [
 			'Material UI',
 			'CSS',
 		],
-		site: 'https://lostskateshop.onrender.com/',
+		site: 'https://lamp-app.onrender.com/',
+		gh: 'https://github.com/jpswt/LAMP_APP',
 	},
 	{
 		id: 4,
@@ -50,6 +53,7 @@ export const data = [
 		title: 'Rugged Beard',
 		description: 'Barber Site',
 		stack: ['HTML', 'CSS', 'Javascript'],
-		site: 'https://lostskateshop.onrender.com/',
+		site: 'https://jpswt.github.io/BarberShop-CheckPoint/',
+		gh: 'https://github.com/jpswt/BarberShop-CheckPoint',
 	},
 ];
