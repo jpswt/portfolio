@@ -12,7 +12,7 @@ body {
 }
 
 .light {
-	--clr-bg: hsl(0, 0%, 99%);
+	--clr-bg: hsl(0, 0%, 95%);
 	--clr-bg-alt: hsl(0, 0%, 100%);
 	--clr-font: hsl(0, 0%, 33%);
 	--clr-font-alt: hsl(0, 0%, 27%);
@@ -23,7 +23,7 @@ body {
 }
 
 .dark {
-	--clr-bg: hsl(231, 27%, 23%);
+	--clr-bg: hsl(231, 27%, 28%);
 	--clr-bg-alt: hsl(231, 29%, 23%);
 	--clr-font: hsl(240, 36%, 90%);
 	--clr-font-alt: hsl(240, 67%, 91%);

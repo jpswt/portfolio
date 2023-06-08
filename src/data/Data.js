@@ -5,7 +5,8 @@ export const data = [
 		bg: './lost.svg',
 		color: 'red',
 		title: 'Lost Skate Shop',
-		description: 'Skate Shop Site',
+		description:
+			'A user-friendly e-commerce site for all of your skateboarding needs. This was a personal project to work with Redux Toolkit and the Stripe API.',
 		stack: ['React.js', 'Sass', 'Node.js', 'Express.js', 'MongoDB'],
 	},
 	{

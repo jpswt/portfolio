@@ -1,3 +1,19 @@
+h2 {
+	font-size: 2.2rem;
+	margin-bottom: 0px;
+}
+
+h3 {
+	font-size: 1.4rem;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p {
+	margin: 0;
+	font-size: 1.2rem;
+}
+
 .card-wrapper {
 	width: 100%;
 }
@@ -19,10 +35,10 @@
 .card-wrapper .card-container .odd::after {
 	content: '';
 	position: absolute;
-	width: 500px;
+	width: 41%;
 	height: 100%;
 	background: var(--clr-card2);
-	left: 0px;
+	left: 5px;
 	top: -30px;
 	z-index: -1;
 }
@@ -30,10 +46,10 @@
 .card-wrapper .card-container .even::after {
 	content: '';
 	position: absolute;
-	width: 500px;
+	width: 41%;
 	height: 100%;
 	background: var(--clr-c);
-	left: 0;
+	left: 700px;
 	top: -30px;
 	z-index: -1;
 }
@@ -45,17 +61,6 @@
 
 .card-wrapper .card-container .details-container {
 	flex: 1;
-	text-align: left;
-}
-
-.card-wrapper .card-container .details-container h2 {
-	font-size: 1.8rem;
-	margin-bottom: 0px;
-}
-.card-wrapper .card-container .details-container h3 {
-	font-size: 1.4rem;
-	margin-top: 0px;
-	margin-bottom: 0px;
 }
 
 /* 
