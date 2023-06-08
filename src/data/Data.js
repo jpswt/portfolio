@@ -8,6 +8,7 @@ export const data = [
 		description:
 			'A user friendly e-commerce site with for all of your skateboarding needs. Detailed product descriptions and high-res photos, allow you to make informed decisions about each product. A personal project designed to learn Redux Toolkit and Stripe API integration.',
 		stack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Sass'],
+		site: 'https://lostskateshop.onrender.com/',
 	},
 	{
 		id: 2,
@@ -24,6 +25,7 @@ export const data = [
 			'Firebase',
 			'TailwindCSS',
 		],
+		site: 'https://notefornote.onrender.com/',
 	},
 	{
 		id: 3,
@@ -39,6 +41,7 @@ export const data = [
 			'Material UI',
 			'CSS',
 		],
+		site: 'https://lostskateshop.onrender.com/',
 	},
 	{
 		id: 4,
@@ -47,5 +50,6 @@ export const data = [
 		title: 'Rugged Beard',
 		description: 'Barber Site',
 		stack: ['HTML', 'CSS', 'Javascript'],
+		site: 'https://lostskateshop.onrender.com/',
 	},
 ];

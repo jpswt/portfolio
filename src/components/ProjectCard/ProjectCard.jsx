@@ -30,9 +30,17 @@ const ProjectCard = ({ project }) => {
 									<span key={idx}>{el}</span>
 								))}
 							</div>
-							<div>
-								<button> View Source Code</button>
-								<button>View Live Site</button>
+							<div className="btn-container">
+								<a
+									className="buttons"
+									href={project.site}
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									View Site
+								</a>
+
+								<a className="buttons"> Github Code </a>
 							</div>
 						</div>
 					</>
@@ -47,9 +55,17 @@ const ProjectCard = ({ project }) => {
 									<span key={idx}>{el}</span>
 								))}
 							</div>
-							<div>
-								<button> View Source Code</button>
-								<button>View Live Site</button>
+							<div className="btn-container">
+								<a
+									className="buttons"
+									href={project.site}
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									View Site
+								</a>
+
+								<a className="buttons"> Github Code </a>
 							</div>
 						</div>
 						<div

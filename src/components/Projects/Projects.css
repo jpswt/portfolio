@@ -1,14 +1,16 @@
 .project-container {
 	min-height: calc(100vh - 80px);
 }
-#projects {
+
+.project-title {
 	width: fit-content;
+	margin-top: 4rem;
 	margin-bottom: 4rem;
 	font-size: 2.6rem;
 	position: relative;
 }
 
-#projects::after {
+.project-title::after {
 	content: '';
 	position: absolute;
 	width: 40%;
