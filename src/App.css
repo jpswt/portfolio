@@ -18,12 +18,12 @@ body {
 	--clr-font-alt: hsl(0, 0%, 27%);
 	--clr-primary: #005b96;
 	--clr-card: hsla(203, 77%, 80%, 0.8);
-	--clr-card2: hsla(205, 26%, 47%, 0.8);
+	--clr-card2: hsla(205, 26%, 37%, 0.8);
 	--clr-c: hsla(180, 50%, 40%, 0.8);
 }
 
 .dark {
-	--clr-bg: hsl(231, 27%, 28%);
+	--clr-bg: hsl(231, 27%, 23%);
 	--clr-bg-alt: hsl(231, 29%, 23%);
 	--clr-font: hsl(240, 36%, 90%);
 	--clr-font-alt: hsl(240, 67%, 91%);
