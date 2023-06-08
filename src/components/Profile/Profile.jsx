@@ -3,6 +3,7 @@ import './Profile.css';
 import { ThemeContext } from '../../context/Theme';
 import devIcon from './Coding.svg';
 import devIcon2 from './Coding2.svg';
+import arrow from './arrow.png';
 
 const Profile = () => {
 	const [{ theme, toggleTheme }] = useContext(ThemeContext);
@@ -25,6 +26,8 @@ const Profile = () => {
 			<div>
 				<img src={theme === 'light' ? devIcon : devIcon2} alt="" />
 			</div>
+			<p className="checkout">Check out my projects</p>
+			<img className="arrow" src={arrow} alt="" />
 		</div>
 	);
 };

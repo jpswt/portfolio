@@ -103,15 +103,6 @@
 	text-decoration: none;
 }
 
-.arrow {
-	width: 180px;
-	color: var(--clr-c);
-	transform: scaleY(-1);
-	position: absolute;
-	top: 230px;
-	left: 50;
-}
-
 /* 
 
 

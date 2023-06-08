@@ -9,6 +9,7 @@
 	font-size: 2.6rem;
 	position: relative;
 	padding-top: 80px;
+	font-family: 'Gloria Hallelujah';
 }
 
 .project-title::after {

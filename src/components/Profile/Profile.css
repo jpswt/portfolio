@@ -5,6 +5,7 @@
 	min-height: calc(100vh - 80px);
 	display: flex;
 	align-items: center;
+	position: relative;
 }
 
 .profile-container .profile-content {
@@ -36,4 +37,21 @@
 	max-width: 80%;
 	font-size: 1.2rem;
 	margin-top: 0;
+}
+
+.checkout {
+	font-family: 'Gloria Hallelujah';
+	font-size: 1.4rem;
+	position: absolute;
+	top: 540px;
+	left: 340px;
+}
+
+.arrow {
+	width: 220px;
+	color: var(--clr-c);
+	transform: scale(-1, -1);
+	position: absolute;
+	top: 550px;
+	left: 120px;
 }
