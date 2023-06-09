@@ -17,7 +17,7 @@ const Profile = () => {
 						Hi, I am
 						<span className="name"> Joel Perez.</span>
 					</h1>
-					<h2 className="profile-description">Full Stack Engineer</h2>
+					<h2 className="profile-description">Full Stack Developer</h2>
 					<p className="profile-info">
 						I am a former scientist, part-time musician, and Lego enthusiast
 						that enjoys expressing my creative side through various outlets. As

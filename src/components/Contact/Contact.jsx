@@ -35,6 +35,41 @@ const Contact = () => {
 	return (
 		<div className="contact-container" id="contact">
 			<h1 className="contact-title">Contact Me</h1>
+			<div className="info">
+				<div className="info-sections">
+					<a href="mailto:joelperezdev12@gmail.com">
+						<p className="circle">
+							<i class="fa-regular fa-paper-plane fa-md"></i>
+						</p>
+					</a>
+					<p className="section-title">Email</p>
+					{/* <p>joelperezdev12@gmail.com</p> */}
+				</div>
+				<div className="info-sections">
+					<a href="tel:512-785-6688">
+						<p className="circle">
+							<i class="fa-solid fa-phone fa-md"></i>
+						</p>
+					</a>
+					<p className="section-title">Phone</p>
+					{/* <p>+1512 785 6688</p> */}
+				</div>
+				<div className="info-sections">
+					<a
+						href="https://www.linkedin.com/in/joel-perez-dev12/"
+						target="_blank"
+						rel="noreferrer noopener"
+					>
+						<p className="circle">
+							<i class="fa-brands fa-linkedin-in fa-md"></i>
+						</p>
+					</a>
+					<p className="section-title">LinkedIn</p>
+					{/* <p>joel-perez-dev12</p> */}
+				</div>
+				{/* <span>Phone</span>
+				<span>LinkedIn</span> */}
+			</div>
 			<div className="form-wrapper">
 				<form ref={form} onSubmit={sendEmail} className="form-container">
 					<input
@@ -65,7 +100,7 @@ const Contact = () => {
 						required
 					/>
 					<button className="btn" type="submit">
-						{statusMsg ? statusMsg : 'Send'}
+						{statusMsg ? statusMsg : 'Send Message'}
 					</button>
 				</form>
 			</div>

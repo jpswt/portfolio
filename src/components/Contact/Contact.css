@@ -13,6 +13,7 @@
 	font-size: 2.6rem;
 	position: relative;
 	padding-top: 80px;
+	margin-bottom: 2rem;
 }
 
 .contact-container .contact-title::after {
@@ -25,8 +26,48 @@
 	top: 135px;
 }
 
+.contact-container .info {
+	display: flex;
+	width: 60%;
+	justify-content: space-around;
+	margin-bottom: 1rem;
+}
+
+.contact-container .info .info-sections {
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-container .info .info-sections .circle {
+	background-color: var(--clr-primary);
+	padding: 0.75rem 1rem;
+	border-radius: 50%;
+	color: var(--clr-bg);
+}
+
+.contact-container .info .info-sections .circle a {
+	color: var(--clr-bg);
+}
+
+.contact-container .info .info-sections .section-title {
+	color: var(--clr-primary);
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.contact-container .info .info-sections p {
+	margin: 0.4rem;
+}
+.contact-container .info .info-sections p:last-child {
+	margin: 0rem 0 0.4rem;
+}
+
 .contact-container .form-wrapper {
-	width: 70%;
+	width: 80%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
