@@ -42,22 +42,31 @@
 .arrow-container {
 	position: absolute;
 	display: flex;
-	top: 88%;
-	left: 18%;
+	top: 86%;
+	left: 52%;
 }
 
 .checkout {
 	font-family: 'Gloria Hallelujah';
 	font-size: 1.4rem;
-	top: 0;
-	left: 27%;
+	margin-left: 0.5rem;
 	/* position: absolute; */
 }
 
 .arrow {
-	width: 15%;
+	width: 240px;
 	color: var(--clr-c);
 	transform: scale(-1, -1);
 	padding-bottom: 10px;
 	/* position: absolute; */
+}
+
+@media (max-width: 1220px) {
+	.profile-container {
+		flex-direction: column;
+	}
+
+	.profile-container .profile-content {
+		margin: 3rem 0 0;
+	}
 }

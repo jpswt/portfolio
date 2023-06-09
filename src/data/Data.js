@@ -9,7 +9,7 @@ export const data = [
 		color: 'red',
 		title: 'Lost Skate Shop',
 		description:
-			'A user friendly e-commerce site with for all of your skateboarding needs. Detailed product descriptions and high-res photos, allow you to make informed decisions about each product. A personal project designed to learn Redux Toolkit and Stripe API integration.',
+			'A user friendly e-commerce site for all of your skateboarding needs. Detailed product descriptions and high-res photos, allow you to make informed decisions about each product. A personal project designed to learn about an e-commerce platform, Redux Toolkit and Stripe API integration.',
 		stack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Sass'],
 		site: 'https://lostskateshop.onrender.com/',
 		gh: 'https://github.com/jpswt/LostSkateShop',
@@ -20,7 +20,7 @@ export const data = [
 		color: 'blue',
 		title: 'Note For Note',
 		description:
-			'Showcase your musical journey, share your insights, connect and collaborate with fellow artists in a vibrant and engaging platform designed exclusively for the guitarist community. It is a Medium.com theme inspired application built to learn MongoDB integrate Multer/Firebase Storage.',
+			'Showcase your musical journey, share your insights, connect and collaborate with fellow artists in a vibrant and engaging platform designed exclusively for the guitarist community. It is a Medium.com theme inspired application built to learn MongoDB and Multer/Firebase for image storage.',
 		stack: [
 			'MongoDB',
 			'Express.js',

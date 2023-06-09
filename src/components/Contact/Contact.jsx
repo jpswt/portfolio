@@ -94,7 +94,7 @@ const Contact = () => {
 						className="inputs"
 						id="message"
 						name="message"
-						rows="6"
+						rows="5"
 						style={{ resize: 'none' }}
 						placeholder={`Let's connect...`}
 						required

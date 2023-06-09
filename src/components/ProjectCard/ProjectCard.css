@@ -29,10 +29,11 @@
 .card-wrapper .card-container .image-container {
 	flex: 1;
 	margin-top: 16px;
+
 	/* display: flex; */
 }
 
-.card-wrapper .card-container .odd::after {
+/* .card-wrapper .card-container .odd::after {
 	content: '';
 	position: absolute;
 	min-width: 490px;
@@ -41,9 +42,9 @@
 	left: 0px;
 	top: -30px;
 	z-index: -1;
-}
+} */
 
-.card-wrapper .card-container .even::after {
+/* .card-wrapper .card-container .even::after {
 	content: '';
 	position: absolute;
 	min-width: 490px;
@@ -52,11 +53,19 @@
 	left: 710px;
 	top: -30px;
 	z-index: -1;
-}
+} */
 
-.card-wrapper .card-container .image-container .card-image {
+.card-image-even {
+	display: inline-block;
 	width: 500px;
 	object-fit: cover;
+	box-shadow: 25px -25px 0 var(--clr-card2);
+}
+.card-image-odd {
+	display: inline-block;
+	width: 500px;
+	object-fit: cover;
+	box-shadow: -25px -25px 0 var(--clr-card);
 }
 
 .card-wrapper .card-container .details-container {
@@ -101,4 +110,15 @@
 	width: 85px;
 	padding: 0.25rem 0.5rem;
 	text-decoration: none;
+}
+
+@media (max-width: 1220px) {
+	.card-wrapper .card-container {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		position: relative;
+		z-index: 0;
+	}
 }

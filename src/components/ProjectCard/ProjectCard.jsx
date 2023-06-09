@@ -6,17 +6,13 @@ const ProjectCard = ({ project }) => {
 			<div className="card-container" key={project.id}>
 				{project.id % 2 !== 0 ? (
 					<>
-						<div
-							className={
-								project.id % 2 === 0
-									? 'image-container even'
-									: 'image-container odd'
-							}
-						>
+						<div className="image-container">
 							<img
 								src={project.bg}
 								alt={project.title}
-								className="card-image"
+								className={
+									project.id % 2 === 0 ? 'card-image-even' : 'card-image-odd'
+								}
 							/>
 							{/* <img className="arrow" src={arrow} alt="" /> */}
 						</div>
@@ -81,17 +77,13 @@ const ProjectCard = ({ project }) => {
 								</a>
 							</div>
 						</div>
-						<div
-							className={
-								project.id % 2 === 0
-									? 'image-container even'
-									: 'image-container odd'
-							}
-						>
+						<div className="image-container">
 							<img
 								src={project.bg}
 								alt={project.title}
-								className="card-image"
+								className={
+									project.id % 2 === 0 ? 'card-image-even' : 'card-image-odd'
+								}
 							/>
 						</div>
 					</>
