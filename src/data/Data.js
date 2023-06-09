@@ -1,8 +1,11 @@
-// import lost from './lost.svg';
+const lostUrl = new URL('../../lost.svg', import.meta.url).href;
+const noteUrl = new URL('../../note.svg', import.meta.url).href;
+const lampUrl = new URL('../../lamp.svg', import.meta.url).href;
+const beardUrl = new URL('../../beard.svg', import.meta.url).href;
 export const data = [
 	{
 		id: 1,
-		bg: 'public/lost.svg',
+		bg: `${lostUrl}`,
 		color: 'red',
 		title: 'Lost Skate Shop',
 		description:
@@ -13,7 +16,7 @@ export const data = [
 	},
 	{
 		id: 2,
-		bg: 'public/note.svg',
+		bg: `${noteUrl}`,
 		color: 'blue',
 		title: 'Note For Note',
 		description:
@@ -31,7 +34,7 @@ export const data = [
 	},
 	{
 		id: 3,
-		bg: 'public/lamp.svg',
+		bg: `${lampUrl}`,
 		color: 'purple',
 		title: 'LAMP - Light a Meaningful Path',
 		description: 'Volunteer Site',
@@ -48,7 +51,7 @@ export const data = [
 	},
 	{
 		id: 4,
-		bg: 'public/beard.svg',
+		bg: `${beardUrl}`,
 		color: 'yellow',
 		title: 'Rugged Beard',
 		description: 'Barber Site',
