@@ -45,11 +45,11 @@
 	background-color: var(--clr-primary);
 	padding: 0.75rem 1rem;
 	border-radius: 50%;
-	color: var(--clr-bg);
+	color: var(--clr-input);
 }
 
 .contact-container .info .info-sections .circle a {
-	color: var(--clr-bg);
+	color: var(--clr-input);
 }
 
 .contact-container .info .info-sections .section-title {
@@ -101,7 +101,7 @@
 	margin: 0.25rem;
 	text-align: center;
 	background-color: var(--clr-primary);
-	color: var(--clr-bg);
+	color: var(--clr-font-light);
 	font-size: 1.2rem;
 	border: none;
 }

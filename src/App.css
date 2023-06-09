@@ -16,6 +16,7 @@ body {
 	--clr-bg-alt: hsl(0, 0%, 100%);
 	--clr-font: #545454;
 	--clr-font-alt: hsl(0, 0%, 27%);
+	--clr-font-light: #fff;
 	--clr-primary: #005b96;
 	--clr-card: hsla(203, 77%, 80%, 0.8);
 	--clr-card2: hsla(205, 26%, 37%, 0.8);
@@ -28,6 +29,7 @@ body {
 	--clr-bg-alt: hsl(231, 29%, 23%);
 	--clr-font: #dcdcef;
 	--clr-font-alt: hsl(240, 67%, 91%);
+	--clr-font-light: #fff;
 	--clr-primary: #8585b7;
 	--clr-card: hsla(234, 76%, 80%, 0.8);
 	--clr-card2: hsla(234, 26%, 47%);

@@ -97,7 +97,7 @@
 
 .card-wrapper .card-container .details-container .buttons {
 	background-color: var(--clr-primary);
-	color: var(--clr-bg);
+	color: var(--clr-font-light);
 	width: 85px;
 	padding: 0.25rem 0.5rem;
 	text-decoration: none;
