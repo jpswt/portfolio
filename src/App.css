@@ -20,6 +20,7 @@ body {
 	--clr-card: hsla(203, 77%, 80%, 0.8);
 	--clr-card2: hsla(205, 26%, 37%, 0.8);
 	--clr-c: hsla(180, 50%, 40%, 0.8);
+	--clr-input: hsla(206, 32%, 85%, 0.8);
 }
 
 .dark {
@@ -31,6 +32,7 @@ body {
 	--clr-card: hsla(234, 76%, 80%, 0.8);
 	--clr-card2: hsla(234, 26%, 47%);
 	--clr-c: hsla(168, 26%, 54%, 0.8);
+	--clr-input: rgb(205, 207, 229);
 }
 
 main {
