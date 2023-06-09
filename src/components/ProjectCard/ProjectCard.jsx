@@ -39,7 +39,14 @@ const ProjectCard = ({ project }) => {
 									View Site
 								</a>
 
-								<a className="buttons"> Github Code </a>
+								<a
+									className="buttons"
+									href={project.gh}
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Github Code
+								</a>
 							</div>
 						</div>
 					</>
@@ -64,7 +71,14 @@ const ProjectCard = ({ project }) => {
 									View Site
 								</a>
 
-								<a className="buttons"> Github Code </a>
+								<a
+									className="buttons"
+									href={project.gh}
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Github Code
+								</a>
 							</div>
 						</div>
 						<div
