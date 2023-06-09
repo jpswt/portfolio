@@ -2,7 +2,7 @@
 export const data = [
 	{
 		id: 1,
-		bg: './lost.svg',
+		bg: '../public/lost.svg',
 		color: 'red',
 		title: 'Lost Skate Shop',
 		description:
@@ -13,7 +13,7 @@ export const data = [
 	},
 	{
 		id: 2,
-		bg: './note.svg',
+		bg: '../public/note.svg',
 		color: 'blue',
 		title: 'Note For Note',
 		description:
@@ -31,7 +31,7 @@ export const data = [
 	},
 	{
 		id: 3,
-		bg: './lamp.svg',
+		bg: '../public/lamp.svg',
 		color: 'purple',
 		title: 'LAMP - Light a Meaningful Path',
 		description: 'Volunteer Site',
@@ -48,7 +48,7 @@ export const data = [
 	},
 	{
 		id: 4,
-		bg: './beard.svg',
+		bg: '../public/beard.svg',
 		color: 'yellow',
 		title: 'Rugged Beard',
 		description: 'Barber Site',
