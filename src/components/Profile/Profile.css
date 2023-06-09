@@ -41,7 +41,6 @@
 
 .arrow-container {
 	position: absolute;
-	width: 100%;
 	display: flex;
 	top: 88%;
 	left: 18%;
@@ -59,7 +58,6 @@
 	width: 15%;
 	color: var(--clr-c);
 	transform: scale(-1, -1);
-	top: 0;
-	left: 18%;
+	padding-bottom: 10px;
 	/* position: absolute; */
 }

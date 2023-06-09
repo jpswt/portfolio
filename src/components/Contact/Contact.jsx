@@ -28,6 +28,7 @@ const Contact = () => {
 
 	return (
 		<div className="contact-container" id="contact">
+			<h1 className="contact-title">Contact Me</h1>
 			<div className="form-wrapper">
 				<img src={wave} alt="wave border image" />
 				<form ref={form} onSubmit={sendEmail} className="form-container">
