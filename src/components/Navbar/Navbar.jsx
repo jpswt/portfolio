@@ -21,7 +21,7 @@ const Navbar = () => {
 	return (
 		<header className="header" style={{ backgroundColor: 'var(--clr-bg)' }}>
 			<nav className="navbar">
-				<h1 className="logo">LOGO</h1>
+				<h1 className="logo">JP</h1>
 				<ul
 					className={showNav ? 'nav-links active' : 'nav-links'}
 					style={{ backgroundColor: 'var(--clr-bg)' }}

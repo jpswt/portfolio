@@ -12,7 +12,7 @@
 	text-align: center;
 }
 
-.project-title::after {
+.project-title::before {
 	content: '';
 	position: absolute;
 	width: 60px;
@@ -20,7 +20,8 @@
 	background: var(--clr-primary);
 	display: block;
 	top: 135px;
-	left: 526px;
+	top: 94%;
+	left: 44%;
 }
 
 .projects-container .project-container {

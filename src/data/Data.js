@@ -37,7 +37,7 @@ export const data = [
 		bg: `${lampUrl}`,
 		color: 'purple',
 		title: 'LAMP - Light a Meaningful Path',
-		description: 'Volunteer Site',
+		description: `LAMP connects passionate individuals with meaningful opportunities to make a positive impact in their communities. Whether you're looking to give back, gain new experiences, or connect with like-minded individuals, our app makes it easy to find and engage in volunteer activities. This project `,
 		stack: [
 			'MYSQL DB',
 			'Express.js',
@@ -54,7 +54,8 @@ export const data = [
 		bg: `${beardUrl}`,
 		color: 'yellow',
 		title: 'Rugged Beard',
-		description: 'Barber Site',
+		description:
+			'Welcome to Rugged Beard, an exceptional grooming experience that combines style, precision and relaxation.  Browse out gallery for inspiration and book your next appointment.  This project was inspired from a free website template to create a pixel perfect clone which utilized wire-framing, Html/CSS skills and responsive design.',
 		stack: ['HTML', 'CSS', 'Javascript'],
 		site: 'https://jpswt.github.io/BarberShop-CheckPoint/',
 		gh: 'https://github.com/jpswt/BarberShop-CheckPoint',

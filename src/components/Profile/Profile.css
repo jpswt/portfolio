@@ -67,6 +67,40 @@
 	}
 
 	.profile-container .profile-content {
-		margin: 3rem 0 0;
+		margin: 0 0 0;
+	}
+
+	.arrow-container {
+		position: absolute;
+		display: flex;
+		top: 110%;
+		left: 52%;
+	}
+
+	.checkout {
+		display: none;
+		font-family: 'Gloria Hallelujah';
+		font-size: 1.4rem;
+		margin-left: 0.5rem;
+	}
+
+	.arrow {
+		display: none;
+		width: 100px;
+		color: var(--clr-c);
+		transform: scale(-1, -1);
+		padding-bottom: 10px;
+	}
+}
+
+@media (max-width: 650px) {
+	.profile-container .profile-content .profile-title {
+		font-size: 3.2rem;
+	}
+
+	.profile-container .profile-content .profile-info {
+		max-width: 95%;
+		font-size: 1.2rem;
+		margin-top: 0;
 	}
 }
