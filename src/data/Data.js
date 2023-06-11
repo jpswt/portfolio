@@ -55,7 +55,7 @@ export const data = [
 		color: 'yellow',
 		title: 'Rugged Beard',
 		description:
-			'Welcome to Rugged Beard, an exceptional grooming experience that combines style, precision and relaxation.  Browse out gallery for inspiration and book your next appointment.  This project was inspired from a free website template to create a pixel perfect clone which utilized wire-framing, Html/CSS skills and responsive design.',
+			'Welcome to Rugged Beard, an exceptional grooming experience that combines style, precision and relaxation.  Browse out gallery for inspiration and book your next appointment.  This frontend project was inspired from a website template to create a responsive, pixel perfect clone.',
 		stack: ['HTML', 'CSS', 'Javascript'],
 		site: 'https://jpswt.github.io/BarberShop-CheckPoint/',
 		gh: 'https://github.com/jpswt/BarberShop-CheckPoint',

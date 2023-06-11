@@ -48,9 +48,19 @@
 
 .checkout {
 	font-family: 'Gloria Hallelujah';
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 	margin-left: 0.5rem;
 	/* position: absolute; */
+}
+
+.checkout a {
+	color: var(--clr-font);
+	text-decoration: none;
+}
+
+.checkout a:hover {
+	color: var(--clr-primary);
+	text-decoration: none;
 }
 
 .arrow {

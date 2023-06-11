@@ -65,10 +65,7 @@ const Contact = () => {
 						</p>
 					</a>
 					<p className="section-title">LinkedIn</p>
-					{/* <p>joel-perez-dev12</p> */}
 				</div>
-				{/* <span>Phone</span>
-				<span>LinkedIn</span> */}
 			</div>
 			<div className="form-wrapper">
 				<form ref={form} onSubmit={sendEmail} className="form-container">

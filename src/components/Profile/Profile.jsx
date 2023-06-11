@@ -35,7 +35,9 @@ const Profile = () => {
 					src={theme === 'light' ? arrow : arrow2}
 					alt=""
 				/>
-				<p className="checkout">Check out my projects</p>
+				<p className="checkout">
+					<a href="#projects">Check out my projects</a>
+				</p>
 			</div>
 		</>
 	);

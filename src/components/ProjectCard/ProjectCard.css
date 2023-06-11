@@ -19,11 +19,16 @@
 
 .card-wrapper .card-container {
 	flex: 2;
-	display: flex;
-	flex-direction: row;
-	gap: 2rem;
 	position: relative;
 	z-index: 0;
+}
+
+.right {
+	display: flex;
+}
+
+.left {
+	display: flex;
 }
 
 .card-wrapper .card-container .image-container {
@@ -32,28 +37,6 @@
 
 	/* display: flex; */
 }
-
-/* .card-wrapper .card-container .odd::after {
-	content: '';
-	position: absolute;
-	min-width: 490px;
-	height: 240px;
-	background: var(--clr-card2);
-	left: 0px;
-	top: -30px;
-	z-index: -1;
-} */
-
-/* .card-wrapper .card-container .even::after {
-	content: '';
-	position: absolute;
-	min-width: 490px;
-	height: 240px;
-	background: var(--clr-c);
-	left: 710px;
-	top: -30px;
-	z-index: -1;
-} */
 
 .card-image-even {
 	display: inline-block;
@@ -70,6 +53,11 @@
 
 .card-wrapper .card-container .details-container {
 	flex: 1;
+}
+
+.card-wrapper .card-container .details-container .card-text {
+	width: 100%;
+	margin: 0 auto;
 }
 
 .card-wrapper .card-container .details-container .stack-container span {
@@ -105,20 +93,57 @@
 }
 
 .card-wrapper .card-container .details-container .buttons {
+	width: 85px;
+	padding: 0.5rem 1rem;
 	background-color: var(--clr-primary);
 	color: var(--clr-font-light);
-	width: 85px;
-	padding: 0.25rem 0.5rem;
 	text-decoration: none;
 }
 
 @media (max-width: 1220px) {
-	.card-wrapper .card-container {
+	.card-wrapper .card-container .image-container {
 		flex: 1;
-		display: flex;
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	.left {
 		flex-direction: column;
-		gap: 2rem;
-		position: relative;
-		z-index: 0;
+	}
+
+	.right {
+		flex-direction: column-reverse;
+	}
+
+	.card-wrapper .card-container .details-container .card-text {
+		width: 80%;
+	}
+}
+
+@media (max-width: 800px) {
+	.card-wrapper .card-container .image-container {
+		flex: 1;
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	.left {
+		flex-direction: column;
+	}
+
+	.right {
+		flex-direction: column-reverse;
+	}
+}
+
+@media (max-width: 600px) {
+	.card-wrapper .card-container .details-container .card-text {
+		width: 95%;
+	}
+	.card-image-even {
+		width: 400px;
+	}
+	.card-image-odd {
+		width: 400px;
 	}
 }
