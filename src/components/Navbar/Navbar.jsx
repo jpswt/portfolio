@@ -27,13 +27,40 @@ const Navbar = () => {
 					style={{ backgroundColor: 'var(--clr-bg)' }}
 				>
 					<li className="nav-link">
-						<a href="#home">Home</a>
+						<a
+							href="#home"
+							onClick={() => {
+								setTimeout(() => {
+									closeNav();
+								}, 1000);
+							}}
+						>
+							Home
+						</a>
 					</li>
 					<li className="nav-link">
-						<a href="#projects">Projects</a>
+						<a
+							href="#projects"
+							onClick={() => {
+								setTimeout(() => {
+									closeNav();
+								}, 1000);
+							}}
+						>
+							Projects
+						</a>
 					</li>
 					<li className="nav-link">
-						<a href="#contact">Contact </a>
+						<a
+							href="#contact"
+							onClick={() => {
+								setTimeout(() => {
+									closeNav();
+								}, 1000);
+							}}
+						>
+							Contact{' '}
+						</a>
 					</li>
 
 					<Toggle />

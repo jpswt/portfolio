@@ -24,7 +24,7 @@ const Contact = () => {
 					form.current.reset();
 					setTimeout(() => {
 						setStatusMsg('');
-					}, 2000);
+					}, 3000);
 				},
 				(error) => {
 					console.log(error.text);
