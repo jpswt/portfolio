@@ -32,7 +32,7 @@ const Navbar = () => {
 							onClick={() => {
 								setTimeout(() => {
 									closeNav();
-								}, 1000);
+								}, 900);
 							}}
 						>
 							Home
@@ -44,7 +44,7 @@ const Navbar = () => {
 							onClick={() => {
 								setTimeout(() => {
 									closeNav();
-								}, 1000);
+								}, 900);
 							}}
 						>
 							Projects
@@ -56,7 +56,7 @@ const Navbar = () => {
 							onClick={() => {
 								setTimeout(() => {
 									closeNav();
-								}, 1000);
+								}, 900);
 							}}
 						>
 							Contact{' '}

@@ -107,6 +107,20 @@
 }
 
 @media (max-width: 800px) {
+	.contact-container .contact-title {
+		padding-top: 20px;
+	}
+
+	.contact-container .contact-title::after {
+		content: '';
+		position: absolute;
+		width: 40%;
+		height: 4px;
+		background: var(--clr-primary);
+		display: block;
+		top: 75px;
+	}
+
 	.contact-container .info {
 		width: 80%;
 	}
