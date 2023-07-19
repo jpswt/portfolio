@@ -39,7 +39,7 @@ const Contact = () => {
 				<div className="info-sections">
 					<a href="mailto:joelperezdev12@gmail.com">
 						<p className="circle">
-							<i class="fa-regular fa-paper-plane fa-md"></i>
+							<i className="fa-regular fa-paper-plane fa-md"></i>
 						</p>
 					</a>
 					<p className="section-title">Email</p>
@@ -48,7 +48,7 @@ const Contact = () => {
 				<div className="info-sections">
 					<a href="tel:512-785-6688">
 						<p className="circle">
-							<i class="fa-solid fa-phone fa-md"></i>
+							<i className="fa-solid fa-phone fa-md"></i>
 						</p>
 					</a>
 					<p className="section-title">Phone</p>
@@ -61,7 +61,7 @@ const Contact = () => {
 						rel="noreferrer noopener"
 					>
 						<p className="circle">
-							<i class="fa-brands fa-linkedin-in fa-md"></i>
+							<i className="fa-brands fa-linkedin-in fa-md"></i>
 						</p>
 					</a>
 					<p className="section-title">LinkedIn</p>

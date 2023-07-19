@@ -5,17 +5,6 @@ const beardUrl = new URL('../../beard.svg', import.meta.url).href;
 export const data = [
 	{
 		id: 1,
-		bg: `${lostUrl}`,
-		color: 'red',
-		title: 'Lost Skate Shop',
-		description:
-			'A user friendly e-commerce site for all of your skateboarding needs. Detailed product descriptions and high-res photos, allow you to make informed decisions about each product. A personal project designed to learn about an e-commerce platform, Redux Toolkit and Stripe API integration.',
-		stack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Sass'],
-		site: 'https://lostskateshop.onrender.com/',
-		gh: 'https://github.com/jpswt/LostSkateShop',
-	},
-	{
-		id: 2,
 		bg: `${noteUrl}`,
 		color: 'blue',
 		title: 'Note For Note',
@@ -31,6 +20,17 @@ export const data = [
 		],
 		site: 'https://notefornote.onrender.com/',
 		gh: 'https://github.com/jpswt/NoteForNote',
+	},
+	{
+		id: 2,
+		bg: `${lostUrl}`,
+		color: 'red',
+		title: 'Lost Skate Shop',
+		description:
+			'A user friendly e-commerce site for all of your skateboarding needs. Detailed product descriptions and high-res photos, allow you to make informed decisions about each product. A personal project designed to learn about an e-commerce platform, Redux Toolkit and Stripe API integration.',
+		stack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Sass'],
+		site: 'https://lostskateshop.onrender.com/',
+		gh: 'https://github.com/jpswt/LostSkateShop',
 	},
 	{
 		id: 3,
