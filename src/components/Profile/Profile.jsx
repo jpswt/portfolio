@@ -20,9 +20,11 @@ const Profile = () => {
 					<h2 className="profile-description">Full Stack Developer</h2>
 					<p className="profile-info">
 						I am a former scientist, part-time musician, and Lego enthusiast
-						that enjoys expressing my creative side through various outlets. As
-						a developer, I utilize this passion and creativity to bring things
-						to life that will have a positive impact in the world.
+						that finds immense joy in coding. My creative nature constantly
+						leads me to explore different areas of development, while my
+						analytical mindset enables me to solve challenging problems. As a
+						developer, I harness this passion and creativity to produce
+						meaningful projects that make a positive impact on the world.
 					</p>
 				</div>
 				<div>
