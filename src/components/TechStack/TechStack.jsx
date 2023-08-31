@@ -17,7 +17,11 @@ const TechStack = () => {
 					<Icon icon="react/react-original" title="ReactJS" />
 					<Icon icon="nodejs/nodejs-original" title="NodeJS" />
 					<Icon icon="redux/redux-original" title="Redux" />
-					<Icon icon="nextjs/nextjs-original" title="NextJS" />
+					<Icon
+						icon="nextjs/nextjs-original"
+						title="NextJS"
+						className={theme === 'light' && 'icon-dark'}
+					/>
 					<Icon icon="typescript/typescript-original" title="Typescript" />
 					<Icon icon="html5/html5-original" title="HTML" />
 					<Icon icon="css3/css3-original" title="CSS" />

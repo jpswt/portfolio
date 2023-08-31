@@ -35,6 +35,11 @@
 	align-items: center;
 }
 
+.icon-dark {
+	filter: invert(94%) sepia(71%) saturate(1258%) hue-rotate(180deg)
+		brightness(108%) contrast(87%);
+}
+
 .tech-arrow-container {
 	position: absolute;
 	display: flex;
