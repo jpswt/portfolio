@@ -52,6 +52,18 @@ const Navbar = () => {
 					</li>
 					<li className="nav-link">
 						<a
+							href="#tech"
+							onClick={() => {
+								setTimeout(() => {
+									closeNav();
+								}, 900);
+							}}
+						>
+							Tech Stack
+						</a>
+					</li>
+					<li className="nav-link">
+						<a
 							href="#contact"
 							onClick={() => {
 								setTimeout(() => {

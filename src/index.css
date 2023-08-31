@@ -8,4 +8,5 @@ html {
 	color: inherit;
 	background-color: inherit;
 	scroll-behavior: smooth;
+	scroll-padding-top: 1.5rem;
 }
