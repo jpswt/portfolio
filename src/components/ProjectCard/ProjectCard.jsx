@@ -1,8 +1,19 @@
 import './ProjectCard.css';
+import { motion, useScroll } from 'framer-motion';
+import { useRef } from 'react';
 
 const ProjectCard = ({ project }) => {
+	const ref = useRef(null);
+	const { scrollYProgress } = useScroll({
+		target: ref,
+		offset: ['0 1', '1.33 1'],
+	});
 	return (
-		<div className="card-wrapper">
+		<motion.div
+			style={{ scale: scrollYProgress, opacity: scrollYProgress }}
+			className="card-wrapper"
+			ref={ref}
+		>
 			{project.id % 2 !== 0 ? (
 				<div className="card-container left" key={project.id}>
 					<div className="image-container">
@@ -86,7 +97,7 @@ const ProjectCard = ({ project }) => {
 					</div>
 				</div>
 			)}
-		</div>
+		</motion.div>
 	);
 };
 

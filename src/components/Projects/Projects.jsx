@@ -1,12 +1,19 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { data } from '../../data/Data';
 import './Projects.css';
+// import { motion, useScroll } from 'framer-motion';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
 
 const Projects = () => {
+	// const ref = useRef(null);
+	// const { scrollYProgress } = useScroll({
+	// 	target: ref,
+	// 	offset: ['0 1', '1.33 1'],
+	// });
+
 	useEffect(() => {
 		AOS.init({
 			disable: 'phone',
