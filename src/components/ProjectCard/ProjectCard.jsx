@@ -10,9 +10,12 @@ const ProjectCard = ({ project }) => {
 	});
 	return (
 		<motion.div
-			style={{ scale: scrollYProgress, opacity: scrollYProgress }}
+			initial={{ opacity: 0, scale: 0 }}
+			whileInView={{ opacity: 1, scale: 1, animationDuration: 0.8 }}
+			viewport={{ once: true }}
+			// style={{ scale: scrollYProgress, opacity: scrollYProgress }}
 			className="card-wrapper"
-			ref={ref}
+			// ref={ref}
 		>
 			{project.id % 2 !== 0 ? (
 				<div className="card-container left" key={project.id}>

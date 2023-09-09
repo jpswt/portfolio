@@ -1,4 +1,5 @@
 const lostUrl = new URL('../../lost.svg', import.meta.url).href;
+const cryptoUrl = new URL('../../crypto.svg', import.meta.url).href;
 const noteUrl = new URL('../../note.svg', import.meta.url).href;
 const lampUrl = new URL('../../lamp.svg', import.meta.url).href;
 const beardUrl = new URL('../../beard.svg', import.meta.url).href;
@@ -23,6 +24,17 @@ export const data = [
 	},
 	{
 		id: 2,
+		bg: `${cryptoUrl}`,
+		color: 'red',
+		title: 'CryptoCheck',
+		description:
+			'CryptoCheck is a responsive web application designed for cryptocurrency enthusiasts to monitor real-time data and insightful analysis. This user-friendly app offers a seamless experience for tracking, managing, and staying informed about the volatile world of digital currencies.',
+		stack: ['React.js', 'TailwindCSS', 'DaisyUI', 'Firebase DB'],
+		site: 'https://cryptocheck-0ye2.onrender.com/',
+		gh: 'https://github.com/jpswt/CryptoCheck',
+	},
+	{
+		id: 3,
 		bg: `${lostUrl}`,
 		color: 'red',
 		title: 'Lost Skate Shop',
@@ -33,7 +45,7 @@ export const data = [
 		gh: 'https://github.com/jpswt/LostSkateShop',
 	},
 	{
-		id: 3,
+		id: 4,
 		bg: `${lampUrl}`,
 		color: 'purple',
 		title: 'LAMP - Light a Meaningful Path',
@@ -50,7 +62,7 @@ export const data = [
 		gh: 'https://github.com/jpswt/LAMP_APP',
 	},
 	{
-		id: 4,
+		id: 5,
 		bg: `${beardUrl}`,
 		color: 'yellow',
 		title: 'Rugged Beard',
